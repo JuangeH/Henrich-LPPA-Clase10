@@ -1,0 +1,54 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.PrimerRecuadro{
+  background-color: rgb(248 248 248);
+  float: left;
+  width: 15%;
+  height: 600px;
+}
+.SegundoRecuadro{
+  background-color: rgb(248 248 248);
+  float: right;
+  width: 15%;
+  height: 600px;  
+}	
+.CuadroCentral{
+  background-color: rgb(248 248 248);
+  float: left;
+  width: 67%;
+  height: 100%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  text-align: center;   
+}
+.Titulo{
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Bloque1{
+  text-align: left;
+  margin-left: 10%;
+}
+.Bloque2{
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.Bloque3{
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.table{
+  margin: auto;
+  border-spacing: 30px;
+  text-align: left;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <script type="module" src="/main.js"></script>
+    <script src="/Funcionalidad.js" defer></script>
+    <div class="PrimerRecuadro"></div>
+    <div class="CuadroCentral">
+        <p>
+          <strong>Para calcular su índice de masa corporal, ingrese su estatura y peso</strong>
+        </p>
+        <p class = "Titulo">
+          Sistema métrico
+        </p>
+        <div class = "Bloque1">
+          <p>
+            <strong>ESTATURA</strong>
+          </p>
+          <p>
+            en centímetros:
+          </p>
+          <input type="number" id="estatura" placeholder="cm" />
+        </div>
+        <div class = "Bloque2">
+          <p>
+            <strong>PESO</strong>
+          </p>
+          <p>
+            en kilogramos:
+          </p>
+          <input type="number" id="peso" placeholder="kg" />
+        </div>
+        <div class = "Bloque3">
+          <input type="button" class="Calcular" value="Calcular"
+            onclick="limpieza();
+            document.getElementById('Resultado').value=CalcIMC.calcular(document.getElementById('estatura').value,document.getElementById('peso').value);"/>
+          <input type="number" id="Resultado" placeholder="Resultado" readonly/>
+        </div>
+        <div id="app"></div>
+    </div>
+    <div class="SegundoRecuadro"></div>
+  </body>
+</html>
+
